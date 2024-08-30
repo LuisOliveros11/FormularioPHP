@@ -36,10 +36,10 @@
                     <input id="confPwdInput" class="form-control" type="password" name="confPwd" required="" placeholder="Confirma tu contraseña"> 
     
                     <label for="coloniaInput" class="form-label">Colonia</label>
-                    <input id="coloniaInput" class="form-control" type="text" name="colonia" required="" pattern="[a-zA-Z0-9]+" placeholder="Ingresa tu colonia"> 
+                    <input id="coloniaInput" class="form-control" type="text" name="colonia" required="" pattern="[a-zA-Z0-9\s]+" placeholder="Ingresa tu colonia"> 
     
                     <label for="calleInput" class="form-label">Calle(s)</label>
-                    <input id="calleInput" class="form-control" type="text" name="calle" required="" pattern="[a-zA-Z0-9]+" placeholder="Ingresa tu calle(s)"> 
+                    <input id="calleInput" class="form-control" type="text" name="calle" required="" pattern="[a-zA-Z0-9\s]+" placeholder="Ingresa tu calle(s)"> 
     
                     <div class="botones">
                         <button class="btn btn-outline-success" id="registro" name="registro" required="" type="submit">Registrar</button>
