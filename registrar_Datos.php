@@ -16,8 +16,8 @@ include("conexion_BD.php");
                         if(is_numeric($_POST['telefono'])){
                             if(filter_var($_POST['correo'], FILTER_VALIDATE_EMAIL)){
                                 if(preg_match("/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}$/",$_POST['pwd'])){
-                                    if(preg_match("/^[a-zA-Z0-9]\s+$/",$_POST['colonia'])){
-                                        if(preg_match("/^[a-zA-Z0-9]\s+$/",$_POST['calle'])){
+                                    if(preg_match("/^[a-zA-Z0-9\s]+$/",$_POST['colonia'])){
+                                        if(preg_match("/^[a-zA-Z0-9\s]+$/",$_POST['calle'])){
                                             $nombre = trim($_POST['nombre']);
                                             $apellido = trim($_POST['apellido']);
                                             $telefono = trim($_POST['telefono']);
