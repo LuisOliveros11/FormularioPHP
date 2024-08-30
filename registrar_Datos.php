@@ -1,11 +1,6 @@
 <?php
 include("conexion_BD.php");
 
-if($conexion){
-    echo "TOSDO BIEN";
-}else{
-    echo "TOSDO mal";
-}
     if(isset($_POST['registro'])){
         if(strlen($_POST['nombre']) >= 1 &&
            strlen($_POST['apellido']) >= 1 && 
