@@ -30,7 +30,7 @@
                     <input id="emailInput" class="form-control" type="email" name="correo" required="" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{2,5}" placeholder="Ingresa tu correo electrónico"> 
     
                     <label for="pwdInput" class="form-label">Contraseña</label>
-                    <input id="pwdInput" class="form-control" type="password" name="pwd" required="" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&])([A-Za-z\d$@$!%*?&]|[^ ]){8,15}"  minlength="8" maxlength="15" placeholder="Ingresa tu contraseña"> 
+                    <input id="pwdInput" class="form-control" type="password" name="pwd" required="" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[$@$!%*?&.,])([A-Za-z\d$@$!%*?&.,]|[^ ]){8,15}"  minlength="8" maxlength="15" placeholder="Ingresa tu contraseña"> 
     
                     <label for="confPwdInput" class="form-label">Confirma tu contraseña</label>
                     <input id="confPwdInput" class="form-control" type="password" name="confPwd" required="" placeholder="Confirma tu contraseña"> 
